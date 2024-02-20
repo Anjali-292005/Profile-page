@@ -1,0 +1,210 @@
+/* Select the container class */
+.container {
+    /* Set the maximum width */
+    max-width: 800px;
+    /* Center the element */
+    margin: 0 auto;
+    /* Add a shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Select the profile class */
+  .profile {
+    /* Create a flexbox layout */
+    display: flex;
+    /* Align the items vertically */
+    align-items: center;
+    /* Add a background color */
+    background: #f0f0f0;
+    /* Add some space around the content */
+    padding: 40px;
+    /* Round the corners */
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Select the profile-photo class */
+  .profile-photo {
+    /* Set the width and height */
+    width: 200px;
+    height: 200px;
+    /* Make the image circular */
+    border-radius: 50%;
+    /* Fit the image to the container */
+    object-fit: cover;
+    /* Add some space around the image */
+    margin: 0 40px;
+    /* Add a shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Select the profile-name and profile-title classes */
+  .profile-name,
+  .profile-title {
+    /* Set the text color */
+    color: #333;
+    /* Set the font family */
+    font-family: Arial, sans-serif;
+    /* Set the font weight */
+    font-weight: bold;
+    /* Align the text */
+    text-align: center;
+    /* Add some space around the text elements */
+    margin: 10px 0;
+  }
+  
+  /* Select the profile-links class */
+  .profile-links {
+    /* Create a flexbox layout */
+    display: flex;
+    /* Distribute the items evenly */
+    justify-content: space-evenly;
+    /* Remove the default list style */
+    list-style: none;
+    /* Add some space around the list */
+    margin: 20px 0;
+  }
+  
+  /* Select the profile-links li selector */
+  .profile-links li {
+    /* Display the list items as inline-blocks */
+    display: inline-block;
+    /* Add some space around them */
+    margin: 0 10px;
+    /* Round their corners */
+    border-radius: 50%;
+  }
+  
+  /* Select the profile-links a selector */
+  .profile-links a {
+    /* Display the links as blocks */
+    display: block;
+    /* Set their width and height */
+    width: 40px;
+    height: 40px;
+    /* Add a background color */
+    background: #333;
+    /* Set the text color */
+    color: #fff;
+    /* Remove the default text decoration */
+    text-decoration: none;
+    /* Add a transition effect */
+    transition: all 0.3s;
+  }
+  
+  /* Select the profile-links a:hover selector */
+  .profile-links a:hover {
+    /* Scale the links on hover */
+    transform: scale(1.2);
+    /* Add a shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Select the profile-links i selector */
+  .profile-links i {
+    /* Display the icons as blocks */
+    display: block;
+    /* Center them vertically */
+    line-height: 40px;
+    /* Set their font size */
+    font-size: 20px;
+    /* Align them horizontally */
+    text-align: center;
+  }
+  
+  /* Select the about class */
+  .about {
+    /* Create a flexbox layout */
+    display: flex;
+    /* Change the direction to column */
+    flex-direction: column;
+    /* Align the items vertically */
+    align-items: center;
+    /* Add a background color */
+    background: #fff;
+    /* Add some space around the content */
+    padding: 40px;
+    /* Round the corners */
+    border-radius: 0 0 10px 10px;
+  }
+  
+  /* Select the about-intro class */
+  .about-intro {
+    /* Set the text color */
+    color: #333;
+    /* Set the font family */
+    font-family: Arial, sans-serif;
+    /* Set the font weight */
+    font-weight: normal;
+    /* Align the text */
+    text-align: center;
+    /* Add some space around the paragraph */
+    margin: 20px 0;
+  }
+  
+  /* Select the about-skills class */
+  .about-skills {
+    /* Create a flexbox layout */
+    display: flex;
+    /* Change the direction to column */
+    flex-direction: column;
+    /* Remove the default list style */
+    list-style: none;
+    /* Add some space around the list */
+    margin: 20px 0;
+  }
+  
+  /* Select the about-skills li selector */
+  .about-skills li {
+    /* Display the list items as flex items */
+    display: flex;
+    /* Make them grow and shrink as needed */
+    flex: 1;
+    /* Align them vertically */
+    align-items: center;
+    /* Add some space around them */
+    margin: 10px 0;
+  }
+  
+  /* Select the skill-name and skill-level classes */
+  .skill-name,
+  .skill-level {
+    /* Set the text color */
+    color: #333;
+    /* Set the font family */
+    font-family: Arial, sans-serif;
+    /* Set the font weight */
+    font-weight: bold;
+    /* Align the text */
+    text-align: center;
+    /* Add some space around the skill labels */
+    margin: 0 10px;
+  }
+  
+  /* Select the skill-bar class */
+  .skill-bar {
+    /* Set the width and height */
+    width: 400px;
+    height: 20px;
+    /* Round the corners */
+    border-radius: 10px;
+    /* Remove the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  /* Select the skill-bar value selector */
+  .skill-bar::-webkit-progress-value {
+    /* Set the background color */
+    background: #333;
+    /* Round the corners */
+    border-radius: 10px;
+  }
+  
+  /* Select the skill-bar value selector for other browsers */
+  .skill-bar::-moz-progress-bar {
+    /* Set the background color */
+    background: #333;
+    /* Round the corners */
+    border-radius: 10px;
+  }
+  
